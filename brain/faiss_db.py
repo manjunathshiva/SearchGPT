@@ -1,11 +1,13 @@
-from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+from langchain_ollama import OllamaEmbeddings
 from pprint import pprint
 from langchain_community.document_loaders import JSONLoader
 from langchain_community.vectorstores import FAISS
 import summarise as summ
 
 def search_with_faiss(query):
-    embeddings = HuggingFaceEmbeddings()
+    embeddings = OllamaEmbeddings(
+         model="all-minilm:33m",
+    )
     # try:
     #     faiss_index = FAISS.load_local(
     # "faiss_index", embeddings, allow_dangerous_deserialization=True
