@@ -77,6 +77,10 @@ streamlit run .brain/full_pipe.py
 
 ## **Contact**
 
-For any questions or suggestions, please contact:
+For any questions or suggestions on Ollama implementation, please contact:
+
+- [Linkedin](https://www.linkedin.com/in/manjunath-janardhan-54a5537/)
+
+For Groq implementation and Original Author of SearchGPT , please contact:
 
 - [Linkedin](https://www.linkedin.com/in/hrishk)
