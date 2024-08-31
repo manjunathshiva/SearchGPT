@@ -31,6 +31,7 @@ https://github.com/user-attachments/assets/141db33d-22c0-41a7-a546-fe8fe01f717b
 
 - Python 3.11 or higher
 - Required Python packages (can be installed via `requirements.txt`)
+- Ollama installed with all-minilm:33m and llama3.1:8b-instruct-q4_K_M LLM model
 
 ### Installation Steps
 
@@ -47,12 +48,7 @@ cd SearchGPT
 pip install -r requirements.txt
 ```
 
-3. Add your GROQ API:
-
-- Add your GROQ-API in the `brain/secrets22.py`
-- PS : name this file anything but `secrets.py` !!
-
-4. Run the Application:
+3. Run the Application:
 
 ```bash
 streamlit run .brain/full_pipe.py
